@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+<h2>Task:Make a Creative interactive web page that contains the following:</h2>
+<o1>
+  <1i>uses Javascript to add HTML to the page.</1i>
+  <1i>Changes an image</1i>
+  <1i>Changes the CSS</1i>
+  <1i>Hides HTML content</1i>
+  <1i>Display HTML content<1i>
+<o1>
+<p>JavaScript can change HTML attribute values.</p>
+<p id="demo1">#1. JavaScript can change HTML content.</p>
+
+<button type="button" onclick="document.getElementById('demo1').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+</body>
+</html>
